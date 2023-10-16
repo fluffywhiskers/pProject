@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+body {
+    font-family: 'Gabarito', cursive;
+    background-color: #005594
+
+}
+header h1 a {
+    text-decoration: none;
+    color: #050505;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+header nav a {
+    text-decoration: none;
+    padding: 0px 10px;
+    color: #fffafa;
+}
+header nav a:hover{
+    color: #f78b1f;
+}
+main {
+    background-color: rgb(226, 226, 226);
+    height: 100vh;
+    background-size: cover;
+}
+.subTitle {
+    text-align: center;
+    padding: 150px;
+    font-size: 7rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+li {
+    background-color: #fff;
+    text-align: center;
+    margin: 1%;
+    width: 23%;
+    height: 100px;
+    line-height: 100px;
+    list-style: none;
+}
+li a {
+    text-decoration: none;
+    color: #050505;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+li a:hover {
+    background-color: grey;
+    color: #fff;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    flex-wrap: center;
+    align-items: center;
+}
+h4 {
+    font-size: 1rem;
+    padding: 5px 0px;
+}
+p {
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f78b1f;
+    color: #fff;
+    height: 100px;
+}
+#texto {
+    font-size: 1.2rem;
+}
+.logotype {
+    width: 100px;
+}
+.reservar {
+    background: rgb(131, 121, 60);
+    color: #fff;
+}
+.reservar:hover {
+    color: #fff;
+    border-bottom: none;
+}
+.boas-vindas {
+    color: #fff;
+    font-size: 1.2rem;
+}
+.senac {
+    color: #f78b1f;
+}
+.voltar {
+    text-decoration: none;
+    color: #fff;
+    margin: 5px auto;
+}
+.bem-vindo {
+    background-image: url(IMG/1\ \(1\).png);
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+
+}
+.para-voce {
+    background-image: url(IMG/Novo\ Projeto\ \(4\).png);
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+.empresa {
+    background-image: url(IMG/Novo\ Projeto\ \(5\).png);
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+.contato {
+    background-image: url(IMG/Novo\ Projeto\ \(6\).png);
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+#nav{   
+        
+        width: 250px;
+        height: 100%;
+        position: absolute;
+        right: -300px;
+        transition: all .5s;
+        justify-content: center;
+        float: right;
+        margin-top: 25px;
+        background-image: none;
+        background: no-repeat;
+        background-color: rgba(0,0,0,.5);
+}
+#home{
+    background: none;
+    margin-top: 50px;
+    height: 100%;
+    
+}
+
+#login, #senha{
+    float:center;
+    
+    
+     text-align: center;
+}
+#cadastrar{
+    float: center;
+    border: 2px solid white;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+}
+#cadastrar:hover{
+    cursor: pointer;
+    text-decoration: none;
+
+}
+input[type="checkbox"]{
+    cursor: pointer;
+}
+input[type="checkbox"]:checked ~ #nav {
+    transform: translateX(-300px);
+}
+#texto{
+    text-align: center;
+}
+
+
+
+
+
